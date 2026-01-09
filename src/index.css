@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Custom cinema theme colors using CSS variables */
+@theme {
+  --color-cinema-dark: #0a0a0a;
+  --color-cinema-darker: #050505;
+}
+
+/* Base styles */
+body {
+  background-color: var(--color-cinema-darker);
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Cinema container utility */
+.cinema-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(to bottom, var(--color-cinema-darker), var(--color-cinema-dark), var(--color-cinema-darker));
+}
