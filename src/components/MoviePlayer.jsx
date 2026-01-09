@@ -130,15 +130,21 @@ const MoviePlayer = () => {
                 )}
 
 
-                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                <div className="relative w-full overflow-hidden" style={{ paddingBottom: '56.25%' }}>
 
                     <iframe
                         src={embedUrl}
-                        className="absolute top-0 left-0 w-full h-full"
+                        className="absolute top-0 left-0 w-full h-full border-0"
+                        style={{
+                            maxWidth: '100%',
+                            maxHeight: '100%',
+                            touchAction: 'auto'
+                        }}
                         allow="autoplay; fullscreen"
                         allowFullScreen
                         onLoad={handleIframeLoad}
                         title="Movie Player"
+                        loading="lazy"
                     />
                 </div>
 
