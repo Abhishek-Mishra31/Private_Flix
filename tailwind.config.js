@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '480px', // Extra small devices (320px-479px will use base styles)
+      },
       colors: {
         cinema: {
           dark: '#0a0a0a',
