@@ -109,7 +109,7 @@ const WatchMovie = () => {
                     <div className="text-center space-y-1 sm:space-y-2">
                         <p className="text-gray-400 text-xs sm:text-sm md:text-base flex items-center justify-center gap-1.5 sm:gap-2">
                             <span>Developed by</span>
-                            <a href='https://asyncbytes.com' target="_blank" rel="noopener noreferrer">
+                            <a href='https://www.instagram.com/async.bytes_/' target="_blank" rel="noopener noreferrer">
                                 <span className="text-white font-semibold">Asyncbytes</span>
                             </a>
                             <svg className="w-4 h-4 sm:w-5 sm:h-5 text-red-500 animate-pulse" fill="currentColor" viewBox="0 0 20 20">
