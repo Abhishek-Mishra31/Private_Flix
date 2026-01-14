@@ -102,7 +102,7 @@ const MovieLibrary = () => {
                     <h2 className="text-base xs:text-lg sm:text-xl md:text-2xl font-semibold text-white mb-2 xs:mb-3 sm:mb-4">
                         Select a Movie
                     </h2>
-                    <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-2 xs:gap-3 sm:gap-4 md:gap-6">
+                    <div className="grid grid-cols-2 gap-2 xs:gap-3 sm:gap-4 md:gap-6 max-w-4xl mx-auto">
                         {MOVIES.map((movie) => (
                             <button
                                 key={movie.id}
